@@ -4,6 +4,7 @@ export type categorie = {
 }
 
 export type Tactivity = {
+    id: string,
     category: number,
     name: string,
     calories: number
